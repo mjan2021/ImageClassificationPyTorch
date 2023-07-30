@@ -1,31 +1,5 @@
-# Dermoscopic Image Classification
+# Image Classification
 
-This repository is corresponding to the paper (refrence paper) and it contains the source code and implementation of published study. 
-    
-![Dataset Sample](images/Sample.png "Dataset Sample")
-
-![Results](images/Results.png "Original Data Distribution")
-
-### Abstract
-
-
-- Dermoscopy is a noninvasive way to examine and diagnose skin
-lesions, such as nevus and melanoma, and is a critical step for skin cancer de-
-tection. Accurate classification of dermoscopic images can detect skin cancer
-at an early-stage and bring huge social and economic impact to patients and
-communities. Using deep learning methods to classify dermoscopic images has
-shown superior performance, but existing research often overlooks the class
-imbalance in the data. In addition, although a handful of public datasets are
-available for skin cancer research, these datasets are in general not large enough
-for deep learning algorithms to produce accurate results. In this paper, we pro-
-pose to use data augmentation and generative adversarial networks (GAN) to
-tackle class-imbalanced dermoscopic image classification. Our main objectives
-are to determine how state-of-the-art fine-tuned deep learning models per-
-form on class-imbalanced dermoscopic images, whether data augmentation and
-GAN can help alleviate class imbalances to improve classification accuracy, and
-which method is more effective in addressing class imbalance. By using public
-datasets and a carefully designed framework to generate augmented images
-and synthetic images, our research provides clear answers to these questions
 
 
 # Quick Links
@@ -129,3 +103,4 @@ python GAN-Pytorch.py --data your-data-folder --csv_files csv-files-folder --n_e
 @malsaidi @mjan2021
 
 ## Contact
+@mjan2021
