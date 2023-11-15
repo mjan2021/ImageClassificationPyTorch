@@ -33,13 +33,6 @@ def get_data(data, to_idx):
     
     return files_path , bboxes_v
 
-# def get_paths(files):
-#     root_dir = '/Users/mustafa/Documents/GitHub/DATA/DeepLesion/data/Images_png'
-#     paths = [root_dir+'/'+'_'.join(f.split('_')[0:3])+'/'+f.split('_')[-1] for f in files]
-    
-#     return paths
-    
-    
 
 
 
